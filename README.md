@@ -51,27 +51,31 @@ scrape_configs:
 ```
 ---
 
-## Lancement de prometheuse par la commande : **./prometheus --config.file=prometheus.yml**
+## Lancement de prometheuse par la commande : 
+```bash
+./prometheus --config.file=prometheus.yml
+
+```
 
 ---
 
 ## Configuration de Grafana
--Ajoutez Prometheus comme datasource : http://localhost:9090
--Importez le dashboard JSON fourni dans le dossier /grafana
+- Ajoutez Prometheus comme datasource : http://localhost:9090
+- Importez le dashboard JSON fourni dans le dossier /grafana
 
 ##  Dashboard Grafana
 
-Le dashboard inclus visualise :
+- Le dashboard inclus visualise :
 
-Statut de l'application (UP/DOWN)
+- Statut de l'application (UP/DOWN)
 
-Taux de requêtes HTTP par endpoint
+- Taux de requêtes HTTP par endpoint
 
-Utilisation mémoire JVM (heap)
+- Utilisation mémoire JVM (heap)
 
-Usage CPU système et process
+- Usage CPU système et process
 
-Alertes actives
+- Alertes actives
 
 # Video Demo
 
