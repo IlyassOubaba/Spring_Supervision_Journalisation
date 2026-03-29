@@ -1,0 +1,5 @@
+2026-03-29T12:40:33.276+01:00  INFO 11676 --- [tpMonitoring] [main] m.fstkech.TpMonitoringApplicationTests   : Starting TpMonitoringApplicationTests using Java 25.0.2 with PID 11676 (started by pcY in C:\Users\pc\OneDrive\Documents\tpMonitoring)
+2026-03-29T12:40:33.299+01:00 DEBUG 11676 --- [tpMonitoring] [main] m.fstkech.TpMonitoringApplicationTests   : Running with Spring Boot v3.5.13, Spring v6.2.17
+2026-03-29T12:40:33.301+01:00  INFO 11676 --- [tpMonitoring] [main] m.fstkech.TpMonitoringApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2026-03-29T12:40:42.305+01:00  INFO 11676 --- [tpMonitoring] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2026-03-29T12:40:42.491+01:00  INFO 11676 --- [tpMonitoring] [main] m.fstkech.TpMonitoringApplicationTests   : Started TpMonitoringApplicationTests in 11.359 seconds (process running for 18.541)
